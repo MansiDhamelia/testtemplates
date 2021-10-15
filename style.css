@@ -1,0 +1,156 @@
+/*index page css*/
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info {
+  width: 300px;
+  text-align: justify;
+}
+
+.btn {
+  background-color: #595959;
+  size: 20px;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 8%;
+  font-size: small;
+}
+.btn:hover {
+  background-color: blue;
+}
+
+.main_container {
+  display: flex;
+  margin-top: 50px;
+
+  justify-content: space-evenly;
+}
+.flex_container1 {
+  height: 400px;
+  width: 300px;
+}
+
+.main_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.thumbnail {
+  border: 1px solid;
+  border-color: black;
+  background-color: #595959;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.items-2 button {
+  float: left;
+  cursor: pointer;
+}
+
+.items-2 button:not(:last-child) {
+  border-right: none;
+}
+/*form page css*/
+
+.main_form {
+  height: 100%;
+  width: 100%;
+}
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  border: 1px;
+  border-color: black;
+  border-radius: 3px;
+  background-color: darkslateblue;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  color: white;
+}
+
+.item3 {
+  height: 30px;
+  border-radius: 1px;
+}
+.submit {
+  width: 180px;
+  background-color: cornflowerblue;
+  height: 30px;
+  color: white;
+  border-radius: 3px;
+  border: 0px;
+}
+.submit:hover {
+  background-color: #595959;
+}
+
+/*price page css*/
+
+a:hover,
+a:active {
+  background-color: cornflowerblue;
+}
+a {
+  color: black;
+  text-decoration: none;
+  block-size: 10px;
+}
+
+label {
+  margin-top: 10px;
+  height: 30px;
+  width: 180px;
+  text-align: center;
+}
+
+.p_container {
+  display: flex;
+  flex-direction: column;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.item_1 {
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+.title {
+  border-bottom: 1px solid rgb(250, 248, 248);
+}
+.menu_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn_signup {
+  border-color: cornflowerblue;
+  color: cornflowerblue;
+  background-color: white;
+}
+.menu_2 {
+  text-align: center;
+}
+.main_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
