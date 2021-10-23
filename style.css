@@ -62,11 +62,8 @@ body {
 }
 /*form page css*/
 
-.main_form {
-  height: 100%;
-  width: 100%;
-}
 .form_container {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,4 +150,82 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+/* Todo page css */
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sub_container {
+  width: 400px;
+  height: 200px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  background: #eee;
+  font-size: 18px;
+  padding: 10px;
+  list-style-type: none;
+}
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+ul li:hover {
+  background: darkgray;
+}
+ul li.checked {
+  text-decoration: line-through;
+}
+.box {
+  text-align: center;
+  background-color: #202020;
+  color: white;
+  padding: 10px;
+}
+.box:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#txtId {
+  margin: 0px;
+  padding: 8px;
+  width: 75%;
+  float: left;
+  font-size: 15px;
+  border: none;
+}
+.addBtn {
+  margin: 0px;
+  float: left;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  background: lightgray;
+  width: 60px;
+  text-align: center;
+  color: black;
+}
+.addBtn:hover {
+  background: darkgray;
+}
+.close{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 10px ;
+}
+.close:hover{
+  background-color: #202020;
+  color: white;
 }
