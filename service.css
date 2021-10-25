@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.mainContainer {
+  width: 500px;
+  height: 520px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #3985a8;
+  flex-direction: column;
+  border-radius: 3px;
+}
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 60px;
+  color: white;
+}
+p {
+  font-weight: bold;
+  color: white;
+}
+.container {
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.item1 {
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  background-color: #bf3978;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 25px 0px 25px;
+  border-bottom: 1px black;
+}
+
+.item1:hover {
+  cursor: pointer;
+}
+.item1:active {
+  background-color: #659c43;
+}
+.item2 {
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 25px 0px 25px;
+}
+
+#totalId {
+  border-top: black 2px;
+}
