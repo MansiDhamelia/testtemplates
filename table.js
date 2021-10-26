@@ -1,8 +1,10 @@
-const number = parseInt(prompt('Enter an integer: '));
 
-for(var i=0; i<=10; i++){
-    var result = i * number;
-
-    console.log(`${number} * ${i} = ${result}`);
-
-}
+show = () => {
+  var result = "";
+  var getValue;
+  getValue = Number(document.getElementById("number").value);
+  for (var i = 0; i <= 10; i++) {
+    result = result + "<p>" + getValue + "*" + i + "=" + getValue * i + "</p>";
+  }
+  document.getElementById("result").innerHTML = result;
+};
